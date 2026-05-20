@@ -19,7 +19,6 @@ import warnings
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 warnings.filterwarnings('ignore')
-warnings.filterwarnings('ignore')
 
 # 设置中文字体和深色主题
 # 更完善的中文字体配置
