@@ -13,7 +13,6 @@ from sklearn.metrics import silhouette_score
 from scipy.stats import linregress
 from scipy.optimize import curve_fit
 import pandas as pd
-import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 import warnings
