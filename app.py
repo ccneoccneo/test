@@ -12,7 +12,14 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 from sklearn.metrics import silhouette_score
 from scipy.stats import linregress
 from scipy.optimize import curve_fit
-
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
+import warnings
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
+warnings.filterwarnings('ignore')
 warnings.filterwarnings('ignore')
 
 # 设置中文字体和深色主题
